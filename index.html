@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solara Chum | Software Engineer</title>
+  <meta name="description" content="Solara Chum, UC Santa Cruz CS graduate building full-stack, backend and AI-powered software.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="layout">
+    <aside class="sidebar">
+    <div class="avatar">
+      <span>SC</span>
+      <img src="images/IMG_1009.JPG" alt="Solara Chum" onerror="this.remove()">
+    </div>
+
+    <div class="profile">
+      <p class="role">Backend | Full-stack | ML</p>
+      <h1>Solara Chum</h1>
+      <p class="bio">CS graduate from UC Santa Cruz building reliable backend, full-stack and machine learning products.</p>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+    </nav>
+
+    <div class="social">
+      <a class="social-btn" href="mailto:vchum57@gmail.com"><span class="icon">@</span>Email</a>
+      <a class="social-btn" href="https://github.com/svchum" target="_blank" rel="noopener"><span class="icon">GH</span>GitHub</a>
+      <a class="social-btn" href="https://www.linkedin.com/in/solara-chum-b65b95324/" target="_blank" rel="noopener"><span class="icon">in</span>LinkedIn</a>
+      <a class="social-btn" href="files/SolaraV_Chum_Resume.pdf" target="_blank" rel="noopener"><span class="icon">CV</span>Resume</a>
+    </div>
+  </aside>
+  <main>
+    <section id="about">
+      <p class="eyebrow">Hello</p>
+      <p class="intro">I'm a software engineer who builds full-stack products, fast backends, and practical machine learning features.</p>
+      <p class="muted">I recently graduated from UC Santa Cruz with a B.S. in Computer Science. Across internships in backend development, AI tooling, and full-stack web apps, I've shipped API routes, tuned database performance, and integrated LLMs into real user workflows. I'm looking for a software engineering role where I can keep building reliable, well-tested products.</p>
+      <p>
+        <a class="button" href="mailto:vchum57@gmail.com">Get in touch</a>
+        <a class="button button-outline" href="files/SolaraV_Chum_Resume.pdf" target="_blank" rel="noopener">View resume</a>
+      </p>
+    </section>
+    <section id="experience">
+      <p class="eyebrow">Work</p>
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="job">
+          <div class="meta">
+            <span>Oasis Archery &middot; Stockton, CA</span>
+            <span>Jan 2026 &ndash; May 2026</span>
+          </div>
+          <h3>Backend Developer Intern</h3>
+          <ul>
+            <li>Developed backend features for ARROWLYTIX, an archery management platform centralizing training sessions, scores, and performance trends for a club of 300+ members.</li>
+            <li>Built Flask API routes in Python for athlete progress tracking, score submission, and training history retrieval from PostgreSQL.</li>
+            <li>Optimized PostgreSQL queries and indexing for athlete-history retrieval, reducing average response time by 30%.</li>
+          </ul>
+          <div class="tags">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+        <div class="job">
+          <div class="meta">
+            <span>Chinchilla AI &middot; Remote</span>
+            <span>Jul 2025 &ndash; Aug 2025</span>
+          </div>
+          <h3>AI Software Intern</h3>
+          <ul>
+            <li>Built product features with a FastAPI backend and React frontend, connecting user workflows to AI-assisted code generation and refinement tools.</li>
+            <li>Designed REST endpoints for LLM-assisted code generation, integrating Claude for prompt handling, response processing, and iterative refinement.</li>
+            <li>Evaluated 100+ generated outputs and used recurring failure cases to improve prompt construction, response processing, and error handling.</li>
+          </ul>
+          <div class="tags">
+            <span>FastAPI</span>
+            <span>React</span>
+            <span>LLMs</span>
+          </div>
+        </div>
+        <div class="job">
+          <div class="meta">
+            <span>Bright Sparks Academy &middot; Cupertino, CA</span>
+            <span>May 2025 &ndash; Jul 2025</span>
+          </div>
+          <h3>Software Development Intern</h3>
+          <ul>
+            <li>Developed full-stack scheduling features in React and HTML/CSS for an online tutoring platform, letting students and tutors manage availability and bookings.</li>
+            <li>Implemented Node.js API endpoints and data-handling logic for creating, updating, and retrieving availability and booking records.</li>
+            <li>Tested and debugged 20+ student and tutor scenarios, resolving 10+ workflow defects before deployment.</li>
+          </ul>
+          <div class="tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="eyebrow">Builds</p>
+      <h2>Projects</h2>
+      <div class="card-grid project-grid">
+        <article class="project-card" tabindex="0">
+          <div class="project-inner">
+            <div class="project-face project-front">
+              <span class="card-label">Data / ML</span>
+              <h3>NBA MVP Predictor</h3>
+              <p>A machine learning app that predicts the NBA MVP each season and compares its picks to the actual rankings.</p>
+              <ul>
+                <li>Random Forest and Gradient Boosting regression models</li>
+                <li>96% top-3 accuracy across 40+ seasons (season-based cross validation)</li>
+                <li>Flask web app with a mobile-friendly layout</li>
+              </ul>
+              <div class="tags">
+                <span>Python</span>
+                <span>Scikit-Learn</span>
+                <span>Flask</span>
+                <span>Pandas</span>
+                <span>BeautifulSoup</span>
+              </div>
+              <div class="project-actions">
+                <a class="button-small" href="https://github.com/svchum/nba-predictor" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                <span class="hint">Click card for a preview</span>
+              </div>
+            </div>
+            <div class="project-face project-back">
+              <span class="placeholder">Add images/nba-mvp.png</span>
+              <img src="images/nba_mvp.png" alt="Screenshot of NBA MVP Predictor" onerror="this.remove()">
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-inner">
+            <div class="project-face project-front">
+              <span class="card-label">Full-stack</span>
+                <h3>Anywear Shopper Dashboard</h3>
+                <p>A dashboard where shoppers can view their orders, search and filter them, and manage shipments.</p>
+                <ul>
+                  <li>Handles 1,000+ order records with search, filtering and shipment management</li>
+                  <li>Type-safe tRPC APIs with Zod validation, DynamoDB queries and cursor-based pagination</li>
+                  <li>Clerk authentication and 10+ Vitest tests for API routes and data flows</li>
+                </ul>
+                <div class="tags">
+                  <span>Next.js</span>
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>tRPC</span>
+                  <span>DynamoDB</span>
+                  <span>AWS</span>
+                  <span>Tailwind CSS</span>
+                </div>
+              <div class="project-actions">
+                <span class="hint">Click card for a preview</span>
+              </div>
+            </div>
+            <div class="project-face project-back">
+              <span class="placeholder">Add images/anywear.png</span>
+              <img src="images/anywear.png" alt="Screenshot of Anywear Shopper Dashboard" onerror="this.remove()">
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-inner">
+            <div class="project-face project-front">
+              <span class="card-label">AI / NLP</span>
+              <h3>Mood-Based Music Search</h3>
+              <p>A music search app where you describe a mood or situation in plain language and get matching song recommendations.</p>
+              <ul>
+                <li>Ranks songs from a dataset of 1M+ tracks</li>
+                <li>Sentence embeddings (all-MiniLM-L6-v2) with cosine similarity</li>
+                <li>Matches on lyrics, mood tags and audio features</li>
+              </ul>
+              <div class="tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Sentence Transformers</span>
+              </div>
+              <div class="project-actions">
+                <a class="button-small" href="https://github.com/svchum/music-mood-search" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                <span class="hint">Click card for a preview</span>
+              </div>
+            </div>
+            <div class="project-face project-back">
+              <span class="placeholder">Add images/mood-music.png</span>
+              <img src="images/music-mood.png" alt="Screenshot of Mood-Based Music Search" onerror="this.remove()">
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="education">
+      <p class="eyebrow">Background</p>
+      <h2>Education</h2>
+      <div class="card">
+        <div class="meta">
+          <span>University of California, Santa Cruz</span>
+          <span>Graduated June 2026</span>
+        </div>
+        <h3>B.S. in Computer Science</h3>
+        <p>Coursework: Data Structures &amp; Algorithms, Computer Architecture, Game AI, Full Stack Web Development, Database Systems, Artificial Intelligence, Natural Language Processing, Applied Machine Learning.</p>
+      </div>
+    </section>
+    <section id="skills">
+      <p class="eyebrow">Toolbox</p>
+      <h2>Skills</h2>
+      <div class="card">
+        <div class="skills-row">
+          <b>Languages</b>
+          <span class="tags">
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>C++</span>
+            <span>Python</span>
+            <span>Java</span>
+            <span>C</span>
+            <span>C#</span>
+            <span>Swift</span>
+            <span>HTML</span>
+            <span>CSS</span>
+          </span>
+        </div>
+        <div class="skills-row">
+          <b>Frameworks &amp; tools</b>
+          <span class="tags">
+            <span>React.js</span>
+            <span>Next.js</span>
+            <span>Node.js</span>
+            <span>Flask</span>
+            <span>FastAPI</span>
+            <span>tRPC</span>
+            <span>Tailwind CSS</span>
+            <span>SwiftUI</span>
+            <span>Vitest</span>
+            <span>Docker</span>
+          </span>
+        </div>
+        <div class="skills-row">
+          <b>Databases &amp; cloud</b>
+          <span class="tags">
+            <span>PostgreSQL</span>
+            <span>DynamoDB</span>
+            <span>AWS</span>
+          </span>
+        </div>
+        <div class="skills-row">
+          <b>Data &amp; ML</b>
+          <span class="tags">
+            <span>Scikit-Learn</span>
+            <span>Pandas</span>
+            <span>BeautifulSoup</span>
+            <span>Sentence Transformers</span>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section id="interests">
+      <p class="eyebrow">Focus</p>
+      <h2>Interests</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Professional</h3>
+          <p>Applied machine learning, predictive modeling, backend performance, and full-stack product engineering.</p>
+        </div>
+        <div class="card">
+          <h3>Outside of work</h3>
+          <p>In my free time I enjoy working out, playing basketball/volleyball, playing video games and exploring new hiking trails.</p>
+        </div>
+      </div>
+    </section>
+    <footer>&copy; 2026 Solara Chum</footer>
+  </main>
+</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
