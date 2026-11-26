@@ -114,6 +114,37 @@
         <article class="project-card" tabindex="0">
           <div class="project-inner">
             <div class="project-face project-front">
+              <span class="card-label">AI / Full-stack</span>
+              <h3>CodebaseChat</h3>
+              <p>A chat app for GitHub repos. Ask a question about a codebase and get an answer with highlighted code, file names, line numbers and GitHub links.</p>
+              <ul>
+                <li>Hybrid retrieval: vector search, BM25 and symbol lookup, merged with Reciprocal Rank Fusion</li>
+                <li>Tree-sitter chunking by function and class, with local sentence-transformer embeddings</li>
+                <li>Swappable LLM layer (Gemini, OpenAI, Anthropic) with retries, a backup model and citations mapped to real code</li>
+              </ul>
+              <div class="tags">
+                <span>Python</span>
+                <span>Streamlit</span>
+                <span>FAISS</span>
+                <span>Tree-sitter</span>
+                <span>SQLite</span>
+                <span>LangChain</span>
+              </div>
+              <div class="project-actions">
+                <a class="button-small" href="https://github.com/svchum/codebase_rag" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                <a class="button-small" href="https://youtu.be/zqC93AGlNYY" target="_blank" rel="noopener">Watch demo &rarr;</a>
+                <span class="hint">Click card for a preview</span>
+              </div>
+            </div>
+            <div class="project-face project-back">
+              <span class="placeholder">Add images/codebasechat.png</span>
+              <img src="images/codebasechat.png" alt="Screenshot of CodebaseChat" onerror="this.remove()">
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-inner">
+            <div class="project-face project-front">
               <span class="card-label">Data / ML</span>
               <h3>NBA MVP Predictor</h3>
               <p>A machine learning app that predicts the NBA MVP each season and compares its picks to the actual rankings.</p>
